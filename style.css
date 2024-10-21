@@ -1,0 +1,210 @@
+body {
+    display: grid;
+    place-content: center;
+    background-color: rgb(197, 197, 197);
+    min-height: 100vh;
+}
+
+.container {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: 100px;
+    padding-bottom: 100px;
+}
+
+.container .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 25px 0px 25px;
+    align-items: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container .header .links {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .header .links a {
+    text-decoration: none;
+    margin-right: 18px;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+}
+
+.container .header .header_button .button_1 {
+    padding: 7px 13px;
+    font-size: 10px;
+    font-weight: 600;
+    border: 1px solid rgb(147, 147, 147);
+    background-color: white;
+    border-radius: 20px;
+}
+
+.container .header .header_button .button-2 {
+    padding: 7px 13px;
+    font-size: 10px;
+    font-weight: 600;
+    border: 1px;
+    background-color: rgb(0, 5, 74);
+    border-radius: 20px;
+    color: white;
+    margin-left: 5px;
+}
+
+.container hr {
+    border: 1px solid rgb(201, 201, 201);
+}
+
+.container .container_main .search .search_links p a {
+    text-decoration: none;
+    margin-right: 18px;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container .container_main .search .search_links {
+    display: flex;
+    flex-direction: row;
+}
+
+.container .container_main .search {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container .container_main .search .search_button button img {
+    width: 8px;
+    height: 8px;
+}
+
+.container .container_main .container_product .container_column_left {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container .container_main .container_product .container_column_left .nature {
+    width: 400px;
+    height: 220px;
+
+}
+
+.container .container_main .container_product .container_column_left h3 {
+    margin-top: 10px;
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.container .container_main .container_product .container_column_left p {
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.container .container_main .container_product .container_column_left .column_left_profile {
+    display: grid;
+    grid-template-columns: 15% 30%;
+}
+
+.container .container_main .container_product .container_column_left .column_left_profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.container .container_main .container_product .container_column_left .column_left_profile p {
+    margin-top: 15px;
+    color: rgb(92, 92, 92);
+}
+
+/* Here the secont column righr is started */
+
+.container .container_main .container_recent {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 65px;
+}
+
+.container .container_main .container_recent .part_symbols,
+.part_success,
+.part_belief {
+    display: grid;
+    grid-template-columns: 35% 70%;
+}
+
+.container .container_main .container_recent img {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.container .container_main .container_recent h1 {
+    margin-top: 0px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.container .container_main .container_recent .profile_symbols p {
+    margin-top: 13px;
+}
+
+.container .container_main .container_recent .profile_symbols img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.container .container_main .container_recent .profile_symbols {
+    display: grid;
+    grid-template-columns: 18% 30%;
+    color: rgb(92, 92, 92);
+}
+
+.container .container_main .container_recent .profile_success img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.container .container_main .container_recent .profile_success {
+    display: grid;
+    grid-template-columns: 18% 60%;
+    color: rgb(92, 92, 92);
+}
+
+.container .container_main .container_recent .profile_success p {
+    margin-top: 13px;
+}
+
+.container .container_main .container_recent .profile_belief img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+
+.container .container_main .container_recent .profile_belief {
+    display: grid;
+    grid-template-columns: 18% 60%;
+    color: rgb(92, 92, 92);
+}
+
+.container .container_main .container_recent .profile_belief p {
+    margin-top: 13px;
+}
+
+.container .container_main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.search {
+    display: grid;
+    grid-column: 1/3;
+}
+
+.container_main {
+    width: 900px;
+    padding: 5px 25px 0px 25px;
+}
